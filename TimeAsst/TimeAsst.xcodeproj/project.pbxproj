@@ -11,6 +11,7 @@
 		AE369F28281EB13F00CCF895 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE369F27281EB13F00CCF895 /* ContentView.swift */; };
 		AE369F2A281EB14000CCF895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE369F29281EB14000CCF895 /* Assets.xcassets */; };
 		AE369F2D281EB14000CCF895 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE369F2C281EB14000CCF895 /* Preview Assets.xcassets */; };
+		AEFE8087281EC99C003BBECE /* RoadmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFE8086281EC99C003BBECE /* RoadmapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AE369F27281EB13F00CCF895 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AE369F29281EB14000CCF895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE369F2C281EB14000CCF895 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEFE8086281EC99C003BBECE /* RoadmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadmapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				AE369F25281EB13F00CCF895 /* TimeAsstApp.swift */,
 				AE369F27281EB13F00CCF895 /* ContentView.swift */,
+				AEFE8086281EC99C003BBECE /* RoadmapView.swift */,
 				AE369F29281EB14000CCF895 /* Assets.xcassets */,
 				AE369F2B281EB14000CCF895 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEFE8087281EC99C003BBECE /* RoadmapView.swift in Sources */,
 				AE369F28281EB13F00CCF895 /* ContentView.swift in Sources */,
 				AE369F26281EB13F00CCF895 /* TimeAsstApp.swift in Sources */,
 			);
