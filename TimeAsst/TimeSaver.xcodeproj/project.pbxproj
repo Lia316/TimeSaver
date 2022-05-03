@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE369F26281EB13F00CCF895 /* TimeAsstApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE369F25281EB13F00CCF895 /* TimeAsstApp.swift */; };
+		AE369F26281EB13F00CCF895 /* TimeSaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE369F25281EB13F00CCF895 /* TimeSaverApp.swift */; };
 		AE369F28281EB13F00CCF895 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE369F27281EB13F00CCF895 /* ContentView.swift */; };
 		AE369F2A281EB14000CCF895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE369F29281EB14000CCF895 /* Assets.xcassets */; };
 		AE369F2D281EB14000CCF895 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE369F2C281EB14000CCF895 /* Preview Assets.xcassets */; };
@@ -15,8 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AE369F22281EB13F00CCF895 /* TimeAsst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeAsst.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE369F25281EB13F00CCF895 /* TimeAsstApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAsstApp.swift; sourceTree = "<group>"; };
+		AE369F22281EB13F00CCF895 /* TimeSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE369F25281EB13F00CCF895 /* TimeSaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSaverApp.swift; sourceTree = "<group>"; };
 		AE369F27281EB13F00CCF895 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AE369F29281EB14000CCF895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE369F2C281EB14000CCF895 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		AE369F19281EB13F00CCF895 = {
 			isa = PBXGroup;
 			children = (
-				AE369F24281EB13F00CCF895 /* TimeAsst */,
+				AE369F24281EB13F00CCF895 /* TimeSaver */,
 				AE369F23281EB13F00CCF895 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,21 +45,21 @@
 		AE369F23281EB13F00CCF895 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE369F22281EB13F00CCF895 /* TimeAsst.app */,
+				AE369F22281EB13F00CCF895 /* TimeSaver.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE369F24281EB13F00CCF895 /* TimeAsst */ = {
+		AE369F24281EB13F00CCF895 /* TimeSaver */ = {
 			isa = PBXGroup;
 			children = (
-				AE369F25281EB13F00CCF895 /* TimeAsstApp.swift */,
+				AE369F25281EB13F00CCF895 /* TimeSaverApp.swift */,
 				AE369F27281EB13F00CCF895 /* ContentView.swift */,
 				AEFE8086281EC99C003BBECE /* RoadmapView.swift */,
 				AE369F29281EB14000CCF895 /* Assets.xcassets */,
 				AE369F2B281EB14000CCF895 /* Preview Content */,
 			);
-			path = TimeAsst;
+			path = TimeSaver;
 			sourceTree = "<group>";
 		};
 		AE369F2B281EB14000CCF895 /* Preview Content */ = {
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE369F21281EB13F00CCF895 /* TimeAsst */ = {
+		AE369F21281EB13F00CCF895 /* TimeSaver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE369F30281EB14000CCF895 /* Build configuration list for PBXNativeTarget "TimeAsst" */;
+			buildConfigurationList = AE369F30281EB14000CCF895 /* Build configuration list for PBXNativeTarget "TimeSaver" */;
 			buildPhases = (
 				AE369F1E281EB13F00CCF895 /* Sources */,
 				AE369F1F281EB13F00CCF895 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = TimeAsst;
+			name = TimeSaver;
 			productName = TimeAsst;
-			productReference = AE369F22281EB13F00CCF895 /* TimeAsst.app */;
+			productReference = AE369F22281EB13F00CCF895 /* TimeSaver.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE369F1D281EB13F00CCF895 /* Build configuration list for PBXProject "TimeAsst" */;
+			buildConfigurationList = AE369F1D281EB13F00CCF895 /* Build configuration list for PBXProject "TimeSaver" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE369F21281EB13F00CCF895 /* TimeAsst */,
+				AE369F21281EB13F00CCF895 /* TimeSaver */,
 			);
 		};
 /* End PBXProject section */
@@ -142,7 +142,7 @@
 			files = (
 				AEFE8087281EC99C003BBECE /* RoadmapView.swift in Sources */,
 				AE369F28281EB13F00CCF895 /* ContentView.swift in Sources */,
-				AE369F26281EB13F00CCF895 /* TimeAsstApp.swift in Sources */,
+				AE369F26281EB13F00CCF895 /* TimeSaverApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +270,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TimeAsst/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TimeSaver/Preview Content\"";
 				DEVELOPMENT_TEAM = T79FMP6Q2L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -284,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lia.TimeAsst;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lia.TimeSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -299,7 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TimeAsst/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TimeSaver/Preview Content\"";
 				DEVELOPMENT_TEAM = T79FMP6Q2L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lia.TimeAsst;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lia.TimeSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE369F1D281EB13F00CCF895 /* Build configuration list for PBXProject "TimeAsst" */ = {
+		AE369F1D281EB13F00CCF895 /* Build configuration list for PBXProject "TimeSaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE369F2E281EB14000CCF895 /* Debug */,
@@ -333,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE369F30281EB14000CCF895 /* Build configuration list for PBXNativeTarget "TimeAsst" */ = {
+		AE369F30281EB14000CCF895 /* Build configuration list for PBXNativeTarget "TimeSaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE369F31281EB14000CCF895 /* Debug */,
