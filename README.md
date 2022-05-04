@@ -1,2 +1,2 @@
-# TimeAsst
-Time Assistant
+# TimeSaver
+Time Saving Assistant
