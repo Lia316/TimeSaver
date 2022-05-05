@@ -21,7 +21,7 @@ struct ContentView: View {
                         .environment(\.symbolVariants, .none)
                     Text("할 일")
                 }
-            Text("로드맵 뷰")
+            RoadmapView()
                 .tabItem {
                     Image(systemName: "signpost.right")
                         .environment(\.symbolVariants, .none)
