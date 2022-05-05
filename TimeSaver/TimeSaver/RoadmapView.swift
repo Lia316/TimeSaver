@@ -21,7 +21,7 @@ struct RoadmapView: View {
             .frame(height: 100)
             
             HStack(spacing: 10) {
-                VStack(alignment: .leading, spacing: 70) {
+                VStack(alignment: .leading, spacing: 30) {
                     ForEach(MilestoneListMock.list, id: \.self) { milestone in
                         HStack {
                             Circle()
@@ -29,25 +29,26 @@ struct RoadmapView: View {
                                 .background(Circle().foregroundColor(milestone.labelColor))
                                 .frame(width: 20, height: 20, alignment: .center)
                             Text(milestone.title)
+                                .frame(width: 110, height: 70, alignment: .leading)
+                                .lineLimit(3)
                         }
                     }
                     Spacer()
                 }
-                .frame(width: 140)
-                .padding()
+                .padding(20)
                 .padding(.top, 30)
                 
                 Divider()
                 
                 ScrollView(.horizontal) {
                     ZStack {
-                        LazyHStack(spacing: 60) {
+                        LazyHStack(spacing: 50) {
                             ForEach(0..<23) { index in
                                 VStack {
                                     Text("\(index+1)")
                                     Rectangle()
                                         .fill(.quaternary)
-                                        .frame(width: 0.8)
+                                        .frame(width: 0.5)
                                 }
                             }
                         }
